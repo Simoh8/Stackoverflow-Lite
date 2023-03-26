@@ -21,7 +21,8 @@ for (let user of User){
         from: process.env.EMAIL_ADDRESS,
         to:user.email,
         subject:`Succesful Registration To Write's Oasis`,
-        html        
+        html
+        
     }
 try {
     await sendEmail(message),
