@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    gap: 0.8rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0.1);
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+h3 {
+    align-self: center;
+    color: blue;
+}
+
+
+
+input {
+    height: 1.5rem;
+    padding: 0.5rem;
+}
+
+small {
+    color: red;
+}
+button:hover{
+    background-color: aliceblue;
+color: black;
+cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+}

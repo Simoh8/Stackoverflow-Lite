@@ -1,0 +1,31 @@
+<div class="container">
+    <form [formGroup]="signupform" (ngSubmit)="signup()">
+        <h4>Sign Up Here</h4>
+        <small *ngIf="!signupform.get('username')?.valid && signupform.get('username')?.touched">Username is invalid or
+            it already Exists </small>
+        <label for="username "> Enter a prefered Username </label>
+        <input type="text" placeholder="Enter the username" formControlName="username">
+        <small *ngIf="!signupform.get('email')?.valid && signupform.get('email')?.touched">Email is invalid or it
+            already Exists </small>
+        <label for="email">Enter Your Email</label>
+        <input type="email" placeholder="Enter the email" formControlName="email">
+        <small *ngIf="!signupform.get('password')?.valid && signupform.get('password')?.touched">password is invalid
+        </small>
+        <label for="password">Enter Your password</label>
+        <input type="password" name="" id="" placeholder="Enter the password" formControlName="password">
+        <small *ngIf="!signupform.get('confirm')?.valid && signupform.get('confirm')?.touched">password is invalid or
+            dont match </small>
+        <label for="confirm"> Confirm Password</label>
+        <input type="password" name="" id="" placeholder="Confirm password" formControlName="confirm">
+        <small *ngif="!signupform.get('option')?.valid && signupform.get('option')?.touched ">Please select one of the
+            options option</small>
+        <label for="role">Select if your are A client Or Writer</label>
+        <select name="usertype" id="" formControlName="option">press the arrow
+            <option value="Writer" formControlName="writer">Writer</option>
+            <option value="Client/Employer" formControlName="client">Client</option>
+        </select>
+        <button type="submit">Register</button>
+    </form>
+    <a routerLink="/login">Already Have an Account? Login</a>
+
+</div>

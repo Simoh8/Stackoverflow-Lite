@@ -1,0 +1,18 @@
+<div class="container">
+    <form [formGroup]="loginform" (ngSubmit)="login()">
+        <h3>Login</h3>
+        <hr style="width: 90%;">
+        <small *ngIf="loginform.get('email')?.invalid && loginform.get('email')?.touched">please enter a valid
+            email</small>
+        <label for="email">Enter Your Email</label>
+        <input type="email" name="" id="" placeholder="Enter Your Email Here" formControlName="email">
+        <small *ngIf="loginform.get('password')?.invalid && loginform.get('password')?.touched">Please enter a valid
+            password</small>
+        <label for="password">Enter your password </label>
+        <input type="password" name="" id="" placeholder="Enter Your password here " formControlName="password">
+        <button type="submit" [disabled]=" !loginform.valid">Login</button>
+    </form>
+    <div class="signup">
+        <a routerLink="/signup">Don't have an account ? Sign up here</a>
+    </div>
+</div>

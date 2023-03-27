@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+a:hover{
+    color: rgb(90, 195, 195);
+    
+}
+a{
+    text-decoration: none;
+}
+button {
+    width: 30%;
+    align-self: center;
+    background-color: rgb(27, 27, 239);
+    color: white;
+    border-radius: 0.2rem;
+    height: 2rem;
+    outline: none;
+
+}
+small {
+    color: red;
+}
+
+
+@media only screen and (max-width:780px){
+    div{
+        font-size: small;
+        flex-shrink: 1;
+    }
+}
