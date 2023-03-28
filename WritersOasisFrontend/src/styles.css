@@ -27,3 +27,8 @@ small {
         flex-shrink: 1;
     }
 }
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}

@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from "./Components/Navigation/header/header.component";
 import { FooterComponent } from "./Components/Navigation/footer/footer.component";
+import { HomeComponent } from './Components/home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselModule } from './carousel/carousel.module';
 
 @NgModule({
     declarations: [
@@ -16,7 +19,9 @@ import { FooterComponent } from "./Components/Navigation/footer/footer.component
         BrowserModule,
         AppRoutingModule,
         HeaderComponent,
-        FooterComponent
+        FooterComponent,
+        CarouselModule
+        
     ]
 })
 export class AppModule { }
