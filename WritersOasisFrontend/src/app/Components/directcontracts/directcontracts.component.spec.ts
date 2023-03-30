@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SimonComponent } from './simon.component';
+import { DirectcontractsComponent } from './directcontracts.component';
 
-describe('SimonComponent', () => {
-  let component: SimonComponent;
-  let fixture: ComponentFixture<SimonComponent>;
+describe('DirectcontractsComponent', () => {
+  let component: DirectcontractsComponent;
+  let fixture: ComponentFixture<DirectcontractsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SimonComponent ]
+      imports: [ DirectcontractsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SimonComponent);
+    fixture = TestBed.createComponent(DirectcontractsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

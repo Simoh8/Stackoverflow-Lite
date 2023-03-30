@@ -19,7 +19,50 @@ button {
 small {
     color: red;
 }
-
+.menu {
+    background-color: steelblue;
+    width: 18%;
+    display: flex;
+    color: #dddddd;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+  }
+  p:hover{
+    color: black;
+  }
+  .consistent{
+    padding-top: 1rem;
+    display: flex;
+    height: fit-content;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+  table{
+    height: max-content;
+    width: 80%;
+    text-align: center;
+  }
+  tr {
+    align-self: center;
+    border: 2px solid black;
+    height: 1rem;
+  }
+  
+  td {
+    align-content: center;
+    border: 1px solid black;
+  
+  
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  th {
+    border: 2px solid black;
+  }
 
 @media only screen and (max-width:780px){
     div{
