@@ -5,6 +5,13 @@
     width: 99%;
     padding-top: 1.5rem;
     margin: auto;
+    background-color: black;
+
+}
+img{
+    height: 6rem;
+    background-color: black;
+    border-radius: 80%;
 
 }
 .left{
