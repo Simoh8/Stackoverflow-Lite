@@ -4,6 +4,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { AdminComponent } from './Components/admin/admin.component';
 import { AssignedComponent } from './Components/assigned/assigned.component';
 import { BroadcastsComponent } from './Components/broadcasts/broadcasts.component';
+import { ClientssComponent } from './Components/clientss/clientss.component';
 import { CompletedComponent } from './Components/completed/completed.component';
 import { DirectcontractsComponent } from './Components/directcontracts/directcontracts.component';
 import { FaqsComponent } from './Components/faqs/faqs.component';
@@ -15,12 +16,13 @@ import { PageNotFoundComponent } from './Components/page-not-found/page-not-foun
 import { ReviewsComponent } from './Components/reviews/reviews.component';
 import { RevisionsComponent } from './Components/revisions/revisions.component';
 import { SignupComponent } from './Components/signup/signup.component';
+import { WritersComponent } from './Components/writers/writers.component';
 
 const routes: Routes = [
   { path: '', component: LandingpageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
-  {path:'admin',component:AdminComponent },
+  { path: 'admin', component: AdminComponent },
   { path: 'home', component: HomeComponent },
   { path: 'dc', component: DirectcontractsComponent },
   { path: 'mybid', component: MybidsComponent },
@@ -28,6 +30,8 @@ const routes: Routes = [
   { path: 'reviews', component: ReviewsComponent },
   { path: 'revisions', component: RevisionsComponent },
   { path: 'completed', component: CompletedComponent },
+  { path: 'writers', component: WritersComponent },
+  { path: 'clients', component: ClientssComponent },
   { path: 'broadcasts', component: BroadcastsComponent },
   { path: 'faqs', component: FaqsComponent },
   { path: 'about', component: AboutComponent },

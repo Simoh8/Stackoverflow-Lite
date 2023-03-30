@@ -3,16 +3,16 @@
     justify-content: space-between;
     box-shadow: 0 0 0.5rem rgba( 0,0,0,0.2);
     width: 99%;
-    padding-top: 1.5rem;
+ 
     margin: auto;
     background-color: black;
+    color: white;
 
 }
 img{
     height: 6rem;
     background-color: black;
-    border-radius: 80%;
-
+  
 }
 .left{
     display: flex;
