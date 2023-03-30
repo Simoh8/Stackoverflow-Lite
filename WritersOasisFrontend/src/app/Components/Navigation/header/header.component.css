@@ -1,7 +1,9 @@
-.container{
+.header{
     display: flex;
     justify-content: space-between;
     box-shadow: 0 0 0.5rem rgba( 0,0,0,0.2);
+    width: 99%;
+    margin: auto;
 
 }
 .left{

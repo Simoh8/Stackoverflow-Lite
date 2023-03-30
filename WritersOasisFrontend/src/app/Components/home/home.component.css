@@ -1,3 +1,74 @@
 tr:nth-child(even) {
-    background-color: #dddddd;
-  }
+  background-color: #dddddd;
+}
+
+.menu {
+  background-color: steelblue;
+  width: 19%;
+  display: flex;
+  color: #dddddd;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+p:hover {
+  color: black;
+}
+
+.withdrawbtn {
+  padding-top: 0%;
+  background-color: rgb(34, 100, 212);
+  outline: none;
+  border: none;
+  width: fit-content;
+  margin: 0.5rem;
+  justify-self: center;
+  align-self: flex-end;
+
+}
+
+.wallet {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 0.8rem;
+  background-color: #dddddd;
+  padding: 0.6rem;
+}
+
+.homecontainer {
+  display: flex;
+  padding-top: 0.5rem;
+  gap: 1.2rem;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+.wallettable {
+  width: 78%;
+
+}
+
+tr {
+  align-self: center;
+  border: 2px solid black;
+  height: 3rem;
+}
+
+td {
+  align-content: center;
+  border: 1px solid black;
+
+
+}
+
+th {
+  border: 2px solid black;
+}

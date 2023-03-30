@@ -7,7 +7,6 @@ import { HeaderComponent } from "./Components/Navigation/header/header.component
 import { FooterComponent } from "./Components/Navigation/footer/footer.component";
 import { HomeComponent } from './Components/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { CarouselModule } from './carousel/carousel.module';
 
 @NgModule({
     declarations: [
@@ -20,7 +19,6 @@ import { CarouselModule } from './carousel/carousel.module';
         AppRoutingModule,
         HeaderComponent,
         FooterComponent,
-        CarouselModule
         
     ]
 })

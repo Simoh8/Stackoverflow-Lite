@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit {
   constructor( private formbuilder:FormBuilder){
 
@@ -23,7 +24,6 @@ export class LoginComponent implements OnInit {
       password:new FormControl(null,[Validators.required])
     })
   }
-
 
 login(){
 console.log(this.loginform);

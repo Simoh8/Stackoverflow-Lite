@@ -19,24 +19,27 @@ h3 {
 
 
 input {
-    height: 1.5rem;
+    height: 2.5rem;
     padding: 0.5rem;
 }
 
 small {
     color: red;
 }
-button:hover{
+
+button:hover {
     background-color: aliceblue;
-color: black;
-cursor: pointer;
+    color: black;
+    cursor: pointer;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .container {
     display: flex;
     flex-direction: column;
-    gap:1.5rem;
+    gap: 1.5rem;
     align-items: center;
 }

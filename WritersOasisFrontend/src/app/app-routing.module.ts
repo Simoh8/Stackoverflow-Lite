@@ -1,7 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './Components/about/about.component';
-import { HomeComponent } from './Components/home/home.component';
+import { HomeComponent } from'./Components/home/home.component';
 import { LandingpageComponent } from './Components/landingpage/landingpage.component';
 import { LoginComponent } from './Components/login/login.component';
 import { PageNotFoundComponent } from './Components/page-not-found/page-not-found.component';
