@@ -2,7 +2,7 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.menu {
+/* .menu {
   background-color: steelblue;
   width: 19%;
   display: flex;
@@ -11,7 +11,7 @@ tr:nth-child(even) {
   align-items: center;
   gap: 1rem;
   padding-top: 2rem;
-}
+} */
 
 p:hover {
   color: black;
