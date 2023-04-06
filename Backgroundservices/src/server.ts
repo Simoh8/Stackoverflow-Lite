@@ -1,13 +1,13 @@
 import express from 'express';
-import cron from 'cron';
+import  cron from 'node-cron';
 import welcomeEmail from './Emailservice/welcome';
 const app = express();
 
-cron.schedule('*/10*****',async()=>{
+cron.schedule('*/10*****', async()=>{
     console.log('Refersh after 10 seconds');
     await welcomeEmail()
     
-})
+});
 
 
 app.listen(3200, () => {

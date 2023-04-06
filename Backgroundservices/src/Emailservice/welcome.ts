@@ -12,6 +12,7 @@ interface User {
     is_sent:number
     }
  const welcomeEmail = async()=>{
+    
 const pool =await mssql.connect(sqlConfig)
 const User= await(await pool.request().query("SELECT * FROM user WHERE is_sent='not_sent'")).recordset
 
