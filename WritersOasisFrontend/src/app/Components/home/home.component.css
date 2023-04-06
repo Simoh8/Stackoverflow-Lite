@@ -1,6 +1,4 @@
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
+
 
 /* .menu {
   background-color: steelblue;
@@ -13,9 +11,9 @@ tr:nth-child(even) {
   padding-top: 2rem;
 } */
 
-p:hover {
+/* p:hover {
   color: black;
-}
+} */
 
 .withdrawbtn {
   padding-top: 0%;
