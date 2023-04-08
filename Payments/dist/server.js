@@ -6,5 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const app = (0, express_1.default)();
 app.listen(4600, () => {
-    console.log("Payment server is runnig");
+    console.log("Payment server is running");
+});
+app.get('/', (req, res) => {
+    res.status(200).json({ message: "The intergration is ongoing " });
 });

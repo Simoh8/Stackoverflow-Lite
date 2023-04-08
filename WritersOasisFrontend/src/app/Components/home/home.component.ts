@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { DialogboxComponent } from '../dialogbox/dialogbox.component';
 
 
 @Component({
@@ -11,9 +12,12 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  constructor(){
+
+  }
   
 display_withraw_dialog_box() {
-throw new Error('Method not implemented.');
+ 
 }
 
 
