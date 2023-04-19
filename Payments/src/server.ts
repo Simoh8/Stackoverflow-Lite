@@ -1,6 +1,5 @@
-import { json  } from "express"
+import express, { json } from 'express'
 import request from 'request'
-import express from 'express'
 
 const app=express()
 
@@ -14,7 +13,7 @@ app.get('/acces_token' ,(req,res)=>{
    //acces_token
    request({
     let url =""
-    let auth= new Buffer
+    let auth = Buffer.from('your-string-to-encode').toString('base64');
 
    })
    
